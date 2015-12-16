@@ -1,0 +1,175 @@
+@charset "Shift_JIS";
+/*
+
+Last Update 2009-11-20
+
+*/
+
+/* margin,padding
+--------------------------------------------------------------------*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+div,
+p,
+pre,
+address,
+blockquote,
+ul,
+ol,
+dl,
+dt,
+dd,
+form,
+fieldset {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/* heading
+--------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-size:0%;
+}
+
+/* font 
+--------------------------------------------------------------------*/
+
+body {
+	font-family:"ÉÅÉCÉäÉI", Meiryo, "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+	font-size: 14px;
+}
+
+address,
+em {
+	font-style: normal;
+}
+
+/* list 
+--------------------------------------------------------------------*/
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+/* img 
+--------------------------------------------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	display:inline;
+Å@Å@}	
+
+
+/* form
+--------------------------------------------------------------------*/
+
+input,
+select,
+textarea,
+button {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* table
+--------------------------------------------------------------------*/
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+caption,
+col,
+colgroup {
+	text-align: inherit;
+	line-height: inherit;
+	font-size: 100%;
+}
+
+table {
+	display: table;
+}
+
+thead {
+	display: table-header-group;
+}
+
+tbody {
+	display: table-row-group;
+}
+
+tfoot {
+	display: table-footer-group;
+}
+
+tr {
+	display: table-row;
+}
+
+th,
+td {
+	display: table-cell;
+}
+
+caption {
+	display: table-caption;
+}
+
+col {
+	display: table-column;
+}
+
+colgroup {
+	display: table-column-group;
+}
+
+p.ua-css{
+	font-size:0;
+}
+
+img {
+    border: 0px;
+}
+
+/* clearfix
+--------------------------------------------------------------------*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+	font-size: 0.1em;
+	line-height: 0;
+}
+
+.clearfix {display: inline-block;}/*IE7óp*/
+
+/* Hides from IE-mac \*/
+* html .clearfix { height:1%;}
+.clearfix { display:block;}
+/* End hide from IE-mac */
